@@ -35,10 +35,10 @@ def connect_to_iris():
     # Login credentials
     driver = "{InterSystems IRIS ODBC35}"
     ip = "localhost"
-    port = 51773
-    namespace = "USER"
-    username = "tech"
-    password = "demo"
+    port = 52773
+    namespace = "FAHIMA"
+    username = "_System"
+    password = "Fahi@123"
 
     # Connect to InterSystems IRIS using PyODBC
     connection_string = 'DRIVER={};SERVER={};PORT={};DATABASE={};UID={};PWD={}'\
